@@ -1,9 +1,9 @@
 spring:
   datasource:
     driver: com.mysql.jdbc.Driver
-    password: my_db
-    url: jdbc:mysql://localhost:3306/my_db
-    username: my_db
+    url: jdbc:mysql://localhost:3306/springboot
+    username: springboot
+    password: springboot
   jpa:
     database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
     hibernate:
