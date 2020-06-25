@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driver: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/springboot
+    username: springboot
+    password: springboot
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate:
+      ddl-auto: create
+    show-sql: true
