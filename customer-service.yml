@@ -1,16 +1,5 @@
 server:
   port: 8082
-spring:
-  datasource:
-    driver: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/springboot
-    username: springboot
-    password: springboot
-  jpa:
-    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
-    hibernate:
-      ddl-auto: create
-    show-sql: true
 eureka:
   client:
     service-url:
@@ -20,3 +9,4 @@ info:
     description: Customer Service on spring boot application
     name: Customer Service Application
     version: 1.0.0
+
