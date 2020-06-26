@@ -9,4 +9,9 @@ info:
     description: Customer Service on spring boot application
     name: Customer Service Application
     version: 1.0.0
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
 
