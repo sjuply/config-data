@@ -19,9 +19,9 @@ zuul:
       service-id: auth-service
       strip-prefix: false
     customer-service:
-      path: /customer/**
+      path: /customer-service/**
       service-id: customer-service
-      strip-prefix: false
+      strip-prefix: true
 management:
   endpoints:
     web:
